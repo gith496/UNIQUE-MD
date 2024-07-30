@@ -20,22 +20,22 @@
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
       "required": false,
-      "value": "false"
+      "value": "true"
        },
     "statusview": {
       "description": "make it true if you want bot to view status",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "autoRead": {
       "description": "make it true if you want bot to read messages",
       "required": false,
-      "value": ""
+      "value": "false"
     },
     "SESSION_ID": {
       "description": "your session id",
       "required": true,
-      "value": ""
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia0tySElHYWZieVdvcGdWZURHQWlHeWJWN29pd251a2xYZHNRRkxnTEpWQT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoib01pd2U4Yzc3cHRIRkpYdkNXcHR4eEI5RFp5dU1hZk5Sd1Mwc003Q3gwcz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJRTTlRM3ZNVnZIcGlDM09EOXlEekRXem9ZcHFJNkZraDd4Q0UxTFVGMEVZPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJXNFZPK3c4UGxNcHAwbFFCM3NvUmFlN050RXJwYjFhL0twWjhmYXJ4Mm4wPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImdMMVBTY09KMDF0WFpWUWZWTldwRDBEY05DWkJJNXAySmUySTZua0F1bm89In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InljanRXcHZZck1ocUVGamFNL0JWK3BQcGplK014NkNCMGVKYXZJczVPek09In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicUppNlhFNHdWOEJxSUk2V0RyVG1keFVMQXRqS051cXEwWEY5VXlNV1ZXND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicU13cjZwSzN3S0xwaDhjMzRQUi9SRWFTZGtqYXUyTS95YTdLcjlFNUJpWT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImlWVDR2MXY3OW52ZkxlOFVWNk5YYVdzMFN6ZkhOU0tYekJENFlDcnBDY3JndnVJNkM3V01tVGVmUndyU3BvaTU4Y3hZYnJNaGVwbDZuSDdGeWFYMkNnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MzksImFkdlNlY3JldEtleSI6Ik9sM1R3UGMwSFFXRFp6dHVmdHczTFEzZnI2QzlVNEUwUnV2NmFaSVhwdEU9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbeyJrZXkiOnsicmVtb3RlSmlkIjoiMjMzNTkxODU2NjMwQHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6IkM3NTAzRDMzMkEyMzZFQzkyOUM2MzA2QTlCQ0EwQTExIn0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3MjIzMjM2MjZ9XSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IlczcEUyQlFXVHVXUGtkZVc0Y1BuQmciLCJwaG9uZUlkIjoiMTIyNzRmNmEtODc0NS00MGE1LTljZmUtMzdiNWQ5NGZkZDBhIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlpTQnF5UEc2UFZHUGFRK3ozY3grTlpjUnlvOD0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJuZTRsOXZnUHBSQW05ZnpIVEpNYzNCWHloNVk9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiUEtTMzk1OTUiLCJtZSI6eyJpZCI6IjIzMzU5MTg1NjYzMDo1QHMud2hhdHNhcHAubmV0In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNNckozRkVRbUtXaXRRWVlLeUFBS0FBPSIsImFjY291bnRTaWduYXR1cmVLZXkiOiIyQU9hS280akxOb1FYSjF3bklDWWZXSTZFQUJIbGNpV2RQdHdsU3ZHa2t3PSIsImFjY291bnRTaWduYXR1cmUiOiJkMjRQZjB6VC9NZGczSzRIbkVKTFovdUViMFBZck0xWndJVWs3VTBFVUZCbXkvaDhSenpmVkJ5TWpvTFpYU1BjZFNwdVNNQVJ4VGpvQjZKanNuUXpDUT09IiwiZGV2aWNlU2lnbmF0dXJlIjoiVzdvQ1k1Uk15U0tnODRaWUJZWlNEZUJyNkFGNW1tVjhIeUJabmFmVWtBMjBxd2NYOGVGUTF1MU00SStyUWpNSm9yWjczZTExOHRMQVdkWjdYQk9YQkE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyMzM1OTE4NTY2MzA6NUBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJkZ0RtaXFPSXl6YUVGeWRjSnlBbUgxaU9oQUFSNVhJbG5UN2NKVXJ4cEpNIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzIyMzIzNjIyLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUlINSJ9"
     }
     },
     "buildpacks": [
